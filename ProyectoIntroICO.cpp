@@ -42,4 +42,17 @@ void ingresarValo(float* Polinomio, int grado) {
 }
 void mostrarPoli(float* Polinomio, int grado) {
 	int posicion = grado, i = 0;
+	for (i; i < grado; i++) {
+		if (Polinomio[i] < 0) {
+			printf("%.1fx^%d", Polinomio[i], posicion);
+		}
+		else {
+			if (i == 0) {
+				printf("%.1fx^%d", Polinomio[i], posicion);
+			}
+			else {
+				printf("+%.1fx^%d", Polinomio[i], posicion);
+			}
+		}
+		posicion--;
 }
