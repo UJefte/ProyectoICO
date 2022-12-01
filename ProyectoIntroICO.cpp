@@ -40,3 +40,6 @@ void ingresarValo(float* Polinomio, int grado) {
 		posicion++;
 	}
 }
+void mostrarPoli(float* Polinomio, int grado) {
+	int posicion = grado, i = 0;
+}
