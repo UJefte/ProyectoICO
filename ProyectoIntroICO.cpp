@@ -30,3 +30,7 @@ int pedir_grado() {
 	scanf_s("%d", &grado);
 	return grado;
 }
+void ingresarValo(float* Polinomio, int grado) {
+	int posicion = 0;
+	float coeficiente;
+}
