@@ -24,3 +24,9 @@ int main() {
 	sumaPolinomio(Polinomio1, Polinomio2, grado1, grado2);
 	return 0;
 }
+int pedir_grado() {
+	int grado;
+	printf("\nPedir grado del polinomio");
+	scanf_s("%d", &grado);
+	return grado;
+}
