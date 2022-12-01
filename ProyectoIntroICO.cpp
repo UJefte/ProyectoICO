@@ -55,4 +55,11 @@ void mostrarPoli(float* Polinomio, int grado) {
 			}
 		}
 		posicion--;
+	}
+	if (Polinomio[i] < 0) {
+		printf("%.1fx", Polinomio[i]);
+	}
+	else {
+		printf("+%.1fx", Polinomio[i]);
+	}
 }
