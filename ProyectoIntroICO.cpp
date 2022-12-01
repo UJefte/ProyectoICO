@@ -20,5 +20,7 @@ int main() {
 	mostrarPoli(Polinomio1, grado1);
 	printf("\nPolinomio 2: ");
 	mostrarPoli(Polinomio2, grado2);
+	printf("\nLa suma de los polinomios es: ");
+	sumaPolinomio(Polinomio1, Polinomio2, grado1, grado2);
 	return 0;
 }
