@@ -33,4 +33,10 @@ int pedir_grado() {
 void ingresarValo(float* Polinomio, int grado) {
 	int posicion = 0;
 	float coeficiente;
+	for (int i = grado; i >= 0; i--) {
+		printf("Dame el coeficiente de x^%d: ", i);
+		scanf_s("%f", &coeficiente);
+		Polinomio[posicion] = coeficiente;
+		posicion++;
+	}
 }
